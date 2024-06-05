@@ -8,8 +8,8 @@ $ echo "example-password" > password.txt
 ## Run container
 $ docker compose up --build
 
-## To refresh db data
+## Refresh db data
 $ docker volume rm ${name of volume}
 
-## To delete containers
+## Delete containers
 $ docker compose rm 
